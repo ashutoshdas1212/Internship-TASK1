@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Details</title>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="x">
+
+        Step1:Your Details
+        <form method="post" id="myform">
+            <div id="y">
+                <label for="fname">First name:  </label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <br>
+            <div id="y">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required 
+                       >
+                <br>
+            </div>
+            <div id="y">
+                <label for="mobile">Phone</label>
+                <input type="tel" id="mobile" name="telephone" >
+            </div>
+
+            Step 2:Delivery Address
+
+            <div id="y">
+                <label for="addr">Address</label>
+                <input type="text" id="addr" name="addr">
+            </div>
+            <br>
+            <div id="y">
+                <label for="post">Post Code</label>
+                <input type="number" id="post" name="post">
+            </div>
+            <br>
+            <div id="y">
+                <label for="cntry">Country</label>
+                <input type="text" id="cntry" name="country">
+            </div>
+
+            Step 3:Card Details
+
+            <div id="y">
+                CARD TYPE:<p>
+                    <br />
+                    <input type="radio" id="visa" value="Visa" name="s">
+                    <label for="visa">VISA</label>
+                    <input type="radio" id="amex" name="s" value="Amex">
+                    <label for="amex">AmEx</label>
+                    <input type="radio" id="master" name="s" value="MasterCard">
+                    <label for="master">MasterCard</label><br>
+                </p>
+            </div>
+            <div id="y">
+                <label for="sec">Security Code</label>
+                <input type="number" id="sec">
+            </div>
+            <br>
+            <div id="y">
+                <label for="nm">Name on Card</label>
+                <input type="text" id="nm">
+            </div>
+            <div id="y">
+                <label for="gen">Gender:</label>
+
+                <select name="gen" id="gen">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+
+                </select>
+            </div>
+            <div id="y">
+                <input type="checkbox" id="sbi" name="bank" value="sbi">
+                <label for="sbi"> SBI</label><br>
+                <input type="checkbox" id="icic" name="bank" value="icic">
+                <label for="icic">ICIC</label><br>
+                <input type="checkbox" id="hdfc" name="bank" value="hdfc">
+                <label for="hdfc"> HDFC</label><br><br>
+            </div>
+            <button onclick="myFunction()" id="submitbtn" disabled>Buy it</button>
+        </form>
+    </div>
+    <script src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+</body >
+</html >

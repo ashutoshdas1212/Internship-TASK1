@@ -1,0 +1,40 @@
+
+#y {
+    width: 300px;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 2px;
+    background-color: #bfeba4;
+    display: flex;
+}
+
+#x {
+    width: 350px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #8ed562;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    background-color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+}
+
+label {
+    text-align: left;
+    float: left;
+    margin-right: 25px;
+    width: 100px;
+}
+
+input {
+    width: calc(100% - 150px);
+    float: right;
+}
+
